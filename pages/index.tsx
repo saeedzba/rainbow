@@ -23,57 +23,44 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+        Start Accepting Crypto Payments NOW{' '}
+         
         </p>
 
         <div className={styles.grid}>
-          <a className={styles.card} href="https://rainbowkit.com">
-            <h2>RainbowKit Documentation &rarr;</h2>
-            <p>Learn how to customize your wallet connection flow.</p>
+          <a className={styles.card} href="https://nowpayments.io/supported-coins">
+            <h2>300+ cryptocurrencies available &rarr;</h2>
+            <p>Accept BTC, ETH and any other cryptocurrency of your choice</p>
           </a>
 
-          <a className={styles.card} href="https://wagmi.sh">
-            <h2>wagmi Documentation &rarr;</h2>
-            <p>Learn how to interact with Ethereum.</p>
-          </a>
-
-          <a
-            className={styles.card}
-            href="https://github.com/rainbow-me/rainbowkit/tree/main/examples"
-          >
-            <h2>RainbowKit Examples &rarr;</h2>
-            <p>Discover boilerplate example RainbowKit projects.</p>
-          </a>
-
-          <a className={styles.card} href="https://nextjs.org/docs">
-            <h2>Next.js Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a className={styles.card} href="https://nowpayments.io/pricing">
+            <h2>Only 0.5% – the lowest fee on the market &rarr;</h2>
+            <p>Pay less our 0.5% fees are the lowest on the market</p>
           </a>
 
           <a
             className={styles.card}
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://nowpayments.io/instant-payouts"
           >
-            <h2>Next.js Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Withdraw euro directly to your bank account &rarr;</h2>
+            <p>Receive your funds directly to your wallet - right away</p>
           </a>
 
-          <a
-            className={styles.card}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a className={styles.card} href="https://nowpayments.io/premium-account-manager">
+            <h2>Personal account manager & 24/7 support &rarr;</h2>
+            <p>Your personal manager and 24/7 support will answer all your questions</p>
           </a>
+
+        
+
+      
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
-          Made with ❤️ by your frens at 🌈
+          Made with ❤️ by NOWPayments – 2024
+
         </a>
       </footer>
     </div>
