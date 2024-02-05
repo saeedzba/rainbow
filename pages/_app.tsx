@@ -4,24 +4,26 @@ import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import type { AppProps } from 'next/app';
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
 import {
+  
+  bsc,
   arbitrum,
-  goerli,
   mainnet,
   optimism,
   polygon,
   base,
-  zora,
+  
 } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [
     mainnet,
+    bsc,
     polygon,
     optimism,
     arbitrum,
     base,
-    zora,
+    
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [goerli] : []),
   ],
   [publicProvider()]
